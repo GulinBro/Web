@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #eee;
+}
+
+.header-container {
+    margin: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+#bnt_direita {
+    width: 5%;
+    height: auto;
+    margin: 32px;
+}
+
+#bnt_esquerda {
+    width: 5%;
+    height: auto;
+    margin: 32px;
+}
+
+#andarilho {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
