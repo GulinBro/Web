@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFMG</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+    <form action="/enviarformulario" method="post">
+        <input type="text" name="nome_pessoa" placeholder="Digite o seu nome">
+        <input type="submit">
+    </form>
+</body>
+</html>
+{% endblock %}

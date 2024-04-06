@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block body %}
+   
+
+    {% if 2 == 2 %}
+        <p>OK</p>
+            {% endif %}
+
+    {% for i in range(3) %}
+            <p>{{i}}</p>
+            {% endfor %}
+
+<ol reversed>
+    {% for nome in ['Gustavo','Suzane'] %}
+        <li>{{nome}}</li>
+        {% endfor %}
+</ol>
+
+{% endblock %}
