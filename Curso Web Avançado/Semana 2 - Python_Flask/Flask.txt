@@ -1,0 +1,7 @@
+Instalação do Flask
+
+Primeiro baixe e instale Python = https://www.python.org/downloads/
+
+Depois em um terminal execute o comando : pip install Flask
+
+Para confirmar se esta tudo certo, execute o comando pip list, é necessário que o Flask esteja na lista.

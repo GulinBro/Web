@@ -1,0 +1,23 @@
+Instalação do Node
+
+Baixe e execute = https://nodejs.org/en
+
+Para saber se esta tudo certo, execute este comando no terminal = nodejs
+Vai ser informado a versão instalada atualmente em sua máquina.
+
+Comando para executar um arquivo em node = node nomedoarquivo.js
+
+Instalação do pacote npm nodemon (ATUALIZA ALTERAÇÕES DA PAG, SEM TER QUE EXECUTAR NOVAMENTE O ARQUIVO.JS)
+
+Comando no terminal para instalação = npm install nodemon
+
+Comando para executar arquivo agora com nodemon = npx nodemon nomedoarquivo.js
+
+Instalação do pacote npm express (ENVIA ARQUIVO HTML PARA SERVIDOR)
+
+Comando no terminal para instalação = npm install express
+
+Instalação do pacote ejs (HTML DINÂMICO)
+
+Comando no terminal para instalação = npm install ejs
+
