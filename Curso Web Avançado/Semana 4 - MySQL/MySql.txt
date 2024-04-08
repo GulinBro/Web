@@ -1,0 +1,9 @@
+Instalação MySQL em NodeJS
+
+Comando de Instalação no terminal = npm install mysql
+Comando de Instalação no terminal = npm install express
+Comando de Instalação no terminal = npm install ejs
+
+Extensão de segurança (vazamento de dados)
+
+Comando de Instalação no terminal = npm install dotenv
